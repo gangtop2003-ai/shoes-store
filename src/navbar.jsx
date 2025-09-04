@@ -5,19 +5,24 @@ import {NavLink } from "react-router-dom";
 // صفحات نمونه
 
 
-const Navbar = () => {
+const Navbar = ({sabad}) => {
   return (
-    <nav className="navbar">
-      <NavLink to="/" className='nav-link' end>
+    <div className="navbar" >
+      
+         <NavLink to="/" className='nav-link' end>
         صفحه اصلی
       </NavLink>
       <NavLink to="/bags" className='nav-link'>
-        کیف مجلسی
-      </NavLink>
-      <NavLink to="/shoes" className='nav-link'>
         کفش مجلسی
       </NavLink>
-    </nav>
+      <NavLink to="/shoes" className='nav-link'>
+        کیف مجلسی
+      </NavLink>
+      
+     <NavLink to="/sabad" className='nav-link'>سبد خرید:<span style={{color:'yellow'}}>{sabad.length}</span></NavLink>
+
+     
+    </div>
   );
 };
 
