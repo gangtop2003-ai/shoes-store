@@ -1,0 +1,33 @@
+
+
+.navbar {
+  display: flex;
+  flex-direction: rtl;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #111; /* مشکی */
+}
+
+/* لینک ها */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/* وقتی لینک فعال است */
+.nav-link.active {
+  color: #FFD700; /* طلایی */
+}
+
+/* هاور روی لینک ها */
+.nav-link:hover {
+  color: #FFA500; /* نارنجی ملایم */
+}
+.home-page{
+  height: 700px;
+  background-image: url('../public/background.jpeg'); /* آدرس از public */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
