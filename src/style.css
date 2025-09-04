@@ -1,5 +1,3 @@
-
-
 .navbar {
   display: flex;
   flex-direction: rtl;
@@ -18,16 +16,53 @@
 
 /* وقتی لینک فعال است */
 .nav-link.active {
-  color: #FFD700; /* طلایی */
+  color: #ffd700; /* طلایی */
 }
 
 /* هاور روی لینک ها */
 .nav-link:hover {
-  color: #FFA500; /* نارنجی ملایم */
+  color: #ffa500; /* نارنجی ملایم */
 }
-.home-page{
+.home-page {
   height: 700px;
-  background-image: url('../public/background.jpeg'); /* آدرس از public */
+  background-image: url("../public/background.jpeg"); /* آدرس از public */
   background-size: cover;
   background-repeat: no-repeat;
+}
+.bags-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #111;
+}
+.bags-card{
+   background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bags-card h2{
+  color: #ff0000;
+  text-align: center;
+  padding: 8px;
+}
+.bags-card:hover{
+   transform: translateY(-8px);
+  box-shadow: 0 12px 22px rgba(243, 238, 238, 0.2);
+}
+.div_img{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.div_img img{
+   width: 100%;
+  height: 250px;
+  
+  border-radius: 12px;
+ 
 }
