@@ -21,6 +21,9 @@ const Navbar = ({sabad}) => {
       
      <NavLink to="/sabad" className='nav-link'>سبد خرید:<span style={{color:'yellow'}}>{sabad.length}</span></NavLink>
 
+    <NavLink to="/call" className='nav-link'>
+        تماس با ما
+      </NavLink>
      
     </div>
   );

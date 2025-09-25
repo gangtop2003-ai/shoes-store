@@ -121,6 +121,14 @@ function App() {
       </div>
     );
   };
+  const Call = () => {
+    return (
+      <div>
+        <h2>شماره تماس:09960182691</h2>
+      </div>
+    );
+  };
+
   const Sabad = () => {
     const [price, setprice] = useState(0);
     useEffect(() => {
@@ -182,6 +190,7 @@ function App() {
         <Route path="/bags_maj" element={<Bags_maj />} />
         <Route path="*" element={<Notfund />} />
         <Route path="/sabad" element={<Sabad />} />
+         <Route path="/call" element={<Call />} />
       </Routes>
     </>
   );
