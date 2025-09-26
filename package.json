@@ -2,7 +2,7 @@
   "name": "secend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gangtop2003-ai.github.io/shoes_store",
+  "homepage": "https://gangtop2003-ai.github.io/shoes-store",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
